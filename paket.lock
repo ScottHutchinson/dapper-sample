@@ -15,6 +15,19 @@ NUGET
       Microsoft.Extensions.Configuration.Abstractions (>= 2.0) - framework: >= net463, >= netstandard16
     Microsoft.Extensions.Configuration.Abstractions (2.0) - framework: >= net463, >= netstandard16
       Microsoft.Extensions.Primitives (>= 2.0) - framework: >= net463, >= netstandard16
+    Microsoft.Extensions.Configuration.FileExtensions (2.0) - framework: >= net463, >= netstandard16
+      Microsoft.Extensions.Configuration (>= 2.0) - framework: >= net463, >= netstandard16
+      Microsoft.Extensions.FileProviders.Physical (>= 2.0) - framework: >= net463, >= netstandard16
+    Microsoft.Extensions.Configuration.Json (2.0)
+      Microsoft.Extensions.Configuration (>= 2.0) - framework: >= net463, >= netstandard16
+      Microsoft.Extensions.Configuration.FileExtensions (>= 2.0) - framework: >= net463, >= netstandard16
+      Newtonsoft.Json (>= 10.0.1) - framework: >= net463, >= netstandard16
+    Microsoft.Extensions.FileProviders.Abstractions (2.0) - framework: >= net463, >= netstandard16
+      Microsoft.Extensions.Primitives (>= 2.0) - framework: >= net463, >= netstandard16
+    Microsoft.Extensions.FileProviders.Physical (2.0) - framework: >= net463, >= netstandard16
+      Microsoft.Extensions.FileProviders.Abstractions (>= 2.0) - framework: >= net463, >= netstandard16
+      Microsoft.Extensions.FileSystemGlobbing (>= 2.0) - framework: >= net463, >= netstandard16
+    Microsoft.Extensions.FileSystemGlobbing (2.0) - framework: >= net463, >= netstandard16
     Microsoft.Extensions.Primitives (2.0) - framework: >= net463, >= netstandard16
       System.Runtime.CompilerServices.Unsafe (>= 4.4) - framework: >= net463, >= netstandard16
     Microsoft.NETCore.Platforms (2.0.1) - framework: netstandard13, >= netstandard16
@@ -71,6 +84,7 @@ NUGET
       System.Threading.Timer (>= 4.3) - framework: uap100, >= netstandard12
       System.Xml.ReaderWriter (>= 4.3) - framework: net46, uap100, >= netstandard10
       System.Xml.XDocument (>= 4.3) - framework: uap100, >= netstandard10
+    Newtonsoft.Json (11.0.1) - framework: >= net463, >= netstandard16
     runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl (4.3.2) - framework: netstandard13
     runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl (4.3.2) - framework: netstandard13
     runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl (4.3.2) - framework: netstandard13

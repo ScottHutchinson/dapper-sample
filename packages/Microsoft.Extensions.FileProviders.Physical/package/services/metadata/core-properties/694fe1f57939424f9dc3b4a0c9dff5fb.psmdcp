@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
+  <dc:creator>Microsoft</dc:creator>
+  <dc:description>File provider for physical files for Microsoft.Extensions.FileProviders.</dc:description>
+  <dc:identifier>Microsoft.Extensions.FileProviders.Physical</dc:identifier>
+  <version>2.0.0-rtm-26452</version>
+  <keywords>files filesystem</keywords>
+  <lastModifiedBy>NuGet.Build.Tasks.Pack, Version=4.3.0.5, Culture=neutral, PublicKeyToken=31bf3856ad364e35;</lastModifiedBy>
+</coreProperties>

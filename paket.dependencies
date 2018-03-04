@@ -1,3 +1,4 @@
 source https://www.nuget.org/api/v2
 nuget dapper
 nuget Microsoft.Extensions.Configuration
+nuget Microsoft.Extensions.Configuration.Json

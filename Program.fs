@@ -1,18 +1,18 @@
 ﻿// open System.Configuration
 open System.Data.SqlClient
+open System.IO
 open Microsoft.Extensions.Configuration
 open DapperFSharp
 
 // [<Literal>]
 // let ConnStr = "Data Source=localhost; Initial Catalog=AdventureWorks2017; Integrated Security=True"
-let builder = new ConfigurationBuilder()
-    .SetBasePath(Directory.GetCurrentDirectory())
-    .AddJsonFile("appsettings.json");
+let builder = 
+    let ret = new ConfigurationBuilder()
+    FileConfigurationExtensions.SetBasePath(ret, Directory.GetCurrentDirectory()) |> ignore
+    JsonConfigurationExtensions.AddJsonFile(ret, "appSettings.json")
 
-var config = builder.Build();
-
-let appConfig = config.GetSection("App").Get<AppSettings>()
-let ConnStr = "ConfigurationManager"
+let config = builder.Build ()
+let ConnStr = config.Item("App:Connection:Value") // config.GetSection("App").Get<AppSettings>()
 let db = new SqlConnection(ConnStr)
 
 type User = { ID: int; JobTitle: string }

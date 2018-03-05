@@ -1,7 +1,0 @@
-C:\Users\scott\source\repos\dapper-sample\bin\Release\netcoreapp2.0\dapper-sample.deps.json
-C:\Users\scott\source\repos\dapper-sample\bin\Release\netcoreapp2.0\dapper-sample.runtimeconfig.json
-C:\Users\scott\source\repos\dapper-sample\bin\Release\netcoreapp2.0\dapper-sample.runtimeconfig.dev.json
-C:\Users\scott\source\repos\dapper-sample\bin\Release\netcoreapp2.0\dapper-sample.dll
-C:\Users\scott\source\repos\dapper-sample\bin\Release\netcoreapp2.0\dapper-sample.pdb
-C:\Users\scott\source\repos\dapper-sample\obj\Release\netcoreapp2.0\dapper-sample.dll
-C:\Users\scott\source\repos\dapper-sample\obj\Release\netcoreapp2.0\dapper-sample.pdb

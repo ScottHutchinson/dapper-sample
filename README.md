@@ -20,3 +20,5 @@ https://github.com/AlexTroshkin/fsharp-dapper
 http://www.codesuji.com/2017/07/29/F-and-Dapper/
 
 https://aspnetmonsters.com/2018/01/2018-01-22-loading-an-object-graph-with-dapper/
+
+https://github.com/tmsmith/Dapper-Extensions

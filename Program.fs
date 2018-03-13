@@ -29,7 +29,10 @@ let getUser userId connection =
 //  dotnet run -c Release  --no-build --no-restore 5
 [<EntryPoint>]
 let main argv =
-    let userId = int argv.[0]
-    let user = getUser userId db
-    printfn "User's Job Title: %s" user.JobTitle
+    if argv.Length = 0 then
+        printfn "You must pass a User ID as a command line argument."
+    else
+        let userId = int argv.[0]
+        let user = getUser userId db
+        printfn "User's Job Title: %s" user.JobTitle
     0 // return an integer exit code

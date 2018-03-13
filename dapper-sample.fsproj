@@ -7,7 +7,9 @@
   <ItemGroup>
     <Compile Include="dapper.fs" />
     <Compile Include="Program.fs" />
-    <None Include="appSettings.json" />
+    <None Include="appSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project=".paket\Paket.Restore.targets" />
 </Project>
